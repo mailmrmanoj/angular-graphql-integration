@@ -23,7 +23,7 @@ var GitUsers = (function () {
 GitUsers = __decorate([
     core_1.Component({
         selector: 'git-users',
-        template: "\n   <div *ngIf=\"users\">\n      <ul class=\"list-group users-list\">\n        <li class=\"list-group-item\"\n          *ngFor=\"let user of users\"\n          (click)=\"selectUser(user)\"\n          [class.active]=\"user === activeUser\">\n          {{ user.name }} ({{ user.username }})\n        </li>\n      </ul>\n      </div>"
+        template: "\n   <div *ngIf=\"users\">\n   {{response}}\n      <ul class=\"list-group users-list\">\n        <li class=\"list-group-item\"\n          *ngFor=\"let user of users\"\n          (click)=\"selectUser(user)\"\n          [class.active]=\"user === activeUser\">\n          {{ user.name }} ({{ user.username }})\n        </li>\n      </ul>\n      </div>"
     })
 ], GitUsers);
 exports.GitUsers = GitUsers;

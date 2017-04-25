@@ -6,6 +6,7 @@ import { GitUser } from '../models/user.model';
 selector:'git-users',
 template:`
    <div *ngIf="users">
+   {{response}}
       <ul class="list-group users-list">
         <li class="list-group-item"
           *ngFor="let user of users"
@@ -26,4 +27,5 @@ export class GitUsers {
        selectUser(user){
          alert(user.name);
        }
+
 }
