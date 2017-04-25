@@ -20,7 +20,7 @@ AppComponent = __decorate([
             'h1 { font-weight: bold; } .blue-font{color:blue}'
         ],
         styleUrls: ['../app/css/app.component.css'],
-        template: "\n    <div class=\"jumbotron text-center\">\n      <h1 class=\"red-font\">The App Lives!</h1>\n      <p class=\"blue-font\">{{ message }}</p>\n    </div>\n     "
+        template: "\n    <div class=\"jumbotron text-center\">\n        <header-app></header-app>\n      <h1 class=\"red-font\">The App Lives!</h1>\n      <p class=\"blue-font\">{{ message }}</p>\n    </div>\n     "
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;

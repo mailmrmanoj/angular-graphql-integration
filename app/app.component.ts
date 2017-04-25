@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
     styleUrls:['../app/css/app.component.css']
     template: `
     <div class="jumbotron text-center">
+        <header-app></header-app>
       <h1 class="red-font">The App Lives!</h1>
       <p class="blue-font">{{ message }}</p>
     </div>
