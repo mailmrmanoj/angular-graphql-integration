@@ -14,8 +14,7 @@ template:`
           {{ user.name }} ({{ user.username }})
         </li>
       </ul>
-      </div>
-`
+      </div>`
 })
 
 export class GitUsers {
@@ -24,4 +23,7 @@ export class GitUsers {
         { id: 26, name: 'Nick', username: 'whatnicktweets' },
         { id: 27, name: 'Holly', username: 'hollylawly' }
        ]
+       selectUser(user){
+         alert(user.name);
+       }
 }
