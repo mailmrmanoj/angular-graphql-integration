@@ -21,8 +21,7 @@ All the essentials. None of the extras. Takes a lot of cues from the Angular [qu
 
 ## Installation
 
-- Clone the repo: `git clone git@github.com:scotch-io/angular2-starter-basic`
-- Choose the new directory: `cd angular2-starter-basic`
+- Clone the repo 
 - Install dependencies: `npm install`
 - Start the app: `npm start`
 - View the app: <http://localhost:3000>
@@ -31,12 +30,31 @@ All the essentials. None of the extras. Takes a lot of cues from the Angular [qu
 
 - The Angular application is found in the `app/` directory
 
-## Caveats
+ 
 
-- This is a very basic starter. If you want to use this in production, you're going to need to build out a lot more parts. Parts like:
-- Templates are referenced absolutely, which doesn't scale well.
-    + You'd want to have your build system help with referencing templates relatively. Better to not absolutely reference them as they could get lost in build systems in larger apps.
+## Setup
 
-## More Production Ready Setup
+1. Create folder angular-graphql-integration
+2. Create package.json
+3. Create systemjs.config.js
+4. Create tsconfig.json
+5. Create index.html file add all dependent libraries to bootstrap angular app
+6. Add a .gitignore
+7. Inside app folder create a file app.module.ts define all dependencies
+8. Create a file main.ts that bootstraps modules defined inside app.module.ts
+9. Operations on components
 
-- Use the [Angular CLI](https://cli.angular.io/)
+   9.1 Adding styles
+   9.2 Adding styleUrls
+10. Component(header-app) inside template of another component(my-app)
+
+11. Creating git users lists(git-user component)
+
+12. Inject http module
+
+   12.1 First inject in app.module.ts (HttpComponent)
+   12.2 import { HttpModule,Http,Response ,Headers,RequestOptions   } from '@angular/http'; in app.httpusers.component
+   12.3 Call rest service on demand
+
+
+ 
