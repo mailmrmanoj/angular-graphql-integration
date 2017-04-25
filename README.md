@@ -45,7 +45,9 @@ All the essentials. None of the extras. Takes a lot of cues from the Angular [qu
 9. Operations on components
 
    9.1 Adding styles
+   
    9.2 Adding styleUrls
+   
 10. Component(header-app) inside template of another component(my-app)
 
 11. Creating git users lists(git-user component)
@@ -53,7 +55,9 @@ All the essentials. None of the extras. Takes a lot of cues from the Angular [qu
 12. Inject http module
 
    12.1 First inject in app.module.ts (HttpComponent)
+   
    12.2 import { HttpModule,Http,Response ,Headers,RequestOptions   } from '@angular/http'; in app.httpusers.component
+   
    12.3 Call rest service on demand
 
 
