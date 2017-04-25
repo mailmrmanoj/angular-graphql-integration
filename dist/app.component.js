@@ -16,8 +16,11 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     core_1.Component({
         selector: 'my-app',
-        styles: [],
-        template: "\n    <div class=\"jumbotron text-center\">\n      <h1>The App Lives!</h1>\n      <p>{{ message }}</p>\n    </div>\n     "
+        styles: [
+            'h1 { font-weight: bold; } .blue-font{color:blue}'
+        ],
+        styleUrls: ['../app/css/app.component.css'],
+        template: "\n    <div class=\"jumbotron text-center\">\n      <h1 class=\"red-font\">The App Lives!</h1>\n      <p class=\"blue-font\">{{ message }}</p>\n    </div>\n     "
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;
