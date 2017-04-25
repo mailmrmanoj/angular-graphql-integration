@@ -21,7 +21,7 @@ All the essentials. None of the extras. Takes a lot of cues from the Angular [qu
 
 ## Installation
 
-- Clone the repo 
+- Clone the repo
 - Install dependencies: `npm install`
 - Start the app: `npm start`
 - View the app: <http://localhost:3000>
@@ -30,7 +30,7 @@ All the essentials. None of the extras. Takes a lot of cues from the Angular [qu
 
 - The Angular application is found in the `app/` directory
 
- 
+
 
 ## Setup
 
@@ -44,21 +44,19 @@ All the essentials. None of the extras. Takes a lot of cues from the Angular [qu
 8. Create a file main.ts that bootstraps modules defined inside app.module.ts
 9. Operations on components
 
-   9.1 Adding styles
-   
-   9.2 Adding styleUrls
-   
+        9.1. Adding styles
+
+        9.2. Adding styleUrls
+
 10. Component(header-app) inside template of another component(my-app)
-
 11. Creating git users lists(git-user component)
-
 12. Inject http module
 
-   12.1 First inject in app.module.ts (HttpComponent)
-   
-   12.2 import { HttpModule,Http,Response ,Headers,RequestOptions   } from '@angular/http'; in app.httpusers.component
-   
-   12.3 Call rest service on demand
+        12.1. First inject in app.module.ts (HttpComponent)
+
+        12.2. import { HttpModule,Http,Response ,Headers,RequestOptions   } from '@angular/http'; in app.httpusers.component
+
+        12.3. Call rest service on demand
 
 
- 
+
