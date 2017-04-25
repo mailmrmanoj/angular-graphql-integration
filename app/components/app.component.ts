@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
     styles: [
         'h1 { font-weight: bold; } .blue-font{color:blue}'
     ],
-    styleUrls:['../app/css/app.component.css']
+    styleUrls:['../app/css/app.component.css'],
     template: `
     <div class="jumbotron text-center">
         <header-app></header-app>
